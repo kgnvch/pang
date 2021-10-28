@@ -44,6 +44,7 @@ public class FadeText : MonoBehaviour
 		if (nextCallback != null) {
 			nextCallback ();
 		}
+		isStarted = false;
 		yield break;
 	}
 }
